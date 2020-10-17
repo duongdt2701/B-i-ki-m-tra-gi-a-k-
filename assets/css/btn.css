@@ -1,0 +1,56 @@
+
+
+.btn-new span{
+    background-color: blue;
+    width: 140px;
+    height: 40px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 4px;
+    color: white;
+}
+
+.btn-new span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -4px;
+    background: green;
+    height: 100%;
+    width: 8px;
+    z-index: 0;
+}
+
+
+.btn-new span::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -20px;
+    background: white;
+    height: 100%;
+    width: 30px;
+    transform: rotate(45deg);
+}
+
+.btn {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background: rgb(255, 129, 55);
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn:first-child {
+    background-color: Green;
+}
+
+.btn:last-child {
+    background-color: blue;
+}

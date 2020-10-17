@@ -1,0 +1,41 @@
+
+.notify-heading {
+    color: blue;
+    font-size: 20px;
+}
+
+.notify-heading + span {
+    display: block;
+    width: 60%;
+    height: 4px;
+    background-color: blue;
+    margin-left: 10px;
+}
+
+.mt-10 {
+   margin-top: 62px;
+}
+
+.color-black {
+    color: black;
+}
+.list-notify {
+    padding-top: 20px;
+    border-top: 1px solid silver;
+    margin-left: 0;
+}
+.list-notify ul {
+    margin-left: 0;
+    padding-left: 10px;
+}
+.list-notify li h5 {
+    font-size: 12px;
+}
+
+.d {
+    background: blue;
+    height: 4px;
+    width: 100%;
+    display: block;
+    margin-top: 28px;
+}

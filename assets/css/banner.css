@@ -1,0 +1,58 @@
+
+
+.banner {
+    margin-top: 40px;
+}
+
+.banner-img {
+    margin-top: 20px;
+}
+
+.banner-img img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-title {
+    margin: 10px 0;
+    color: blue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.date {
+    font-size: 8px;
+    line-height: 8px;
+}
+
+.desc {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.banner-img-min img{
+    width: 80px;
+    height: 80px;
+}
+
+.m-min {
+    margin: 0;
+    font-size: 14px;
+}
+
+.banner-content {
+    margin-left: 8px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-banner {
+        margin-bottom: 20px;
+}
+.wrap-banner:first-child {
+    margin-top: 60px;
+}
